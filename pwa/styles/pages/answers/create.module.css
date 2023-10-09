@@ -1,0 +1,57 @@
+.main{
+    color: #435b7b;
+    font-family: Arial;
+}
+
+.main * {
+    font-family: Arial;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  .field label {
+    color: #4a5568;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .field ImageToText {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field ImageToText input[type='file'] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1a202c;
+    background-color: #fff;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .field ImageToText input[type='file']:hover {
+    border-color: #4a5568;
+  }
+  
+  .field ImageToText input[type='file']:focus {
+    border-color: #2b6cb0;
+    box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.5);
+  }
+  

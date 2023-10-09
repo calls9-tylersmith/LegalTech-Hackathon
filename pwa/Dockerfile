@@ -67,4 +67,6 @@ EXPOSE 3000
 
 ENV PORT 3000
 
+RUN apk add --no-cache git
+
 CMD ["node", "server.js"]
